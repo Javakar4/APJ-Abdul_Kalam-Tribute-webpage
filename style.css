@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Profile */
+
+.profile {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    background: linear-gradient(rgb(250, 101, 2), white, rgb(0, 255, 13));
+}
+
+.pimg {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    width: 100%;
+    background: radial-gradient(rgb(202, 199, 199), rgb(185, 183, 183));
+}
+
+div {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+
+/* Mobile Device */
+
+@media all and (min-width: 319px) {
+    .Image {
+        display: block;
+        width: 100%;
+    }
+    .text {
+        width: 100%;
+        display: block;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    div>h2 {
+        color: orangered;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    div>p {
+        color: green;
+        padding: 10px;
+        font-size: .9rem;
+    }
+    blockquote {
+        font-size: .7rem;
+    }
+}
+
+
+/* Medium Device */
+
+@media all and (min-width: 600px) {
+    .Image {
+        display: block;
+        width: 100%;
+    }
+    .text {
+        width: 100%;
+        display: block;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    div>h2 {
+        color: orangered;
+        padding: 10px;
+        font-size: 1.7rem;
+    }
+    div>p {
+        color: green;
+        padding: 10px;
+        font-size: .9rem;
+    }
+    blockquote {
+        font-size: 1rem;
+    }
+}
+
+
+/* Large Device */
+
+@media all and (min-width: 992px) {
+    .Image {
+        width: 35%;
+        height: auto;
+        float: left;
+    }
+    .text {
+        width: 65%;
+        height: 100%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3.2rem;
+    }
+    div>h2 {
+        color: orangered;
+        padding: 10px;
+        font-size: 3rem;
+    }
+    div>p {
+        color: green;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    blockquote {
+        font-size: 1.5rem;
+    }
+}
